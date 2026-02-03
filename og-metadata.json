@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "posts": {
+    "code-blocks-and-groups": {
+      "sourcePath": "src/data/posts/code-blocks-and-groups.mdx",
+      "outputPath": "public/assets/og/code-blocks-and-groups.webp",
+      "title": "Code blocks and groups",
+      "hash": "b61cb7ab5c3012129677104c871d117cb1f6a265f56722501898740f971ed7e7",
+      "updatedAt": "2026-02-03T01:33:39.077Z"
+    },
+    "content-collections-and-routing": {
+      "sourcePath": "src/data/posts/content-collections-and-routing.mdx",
+      "outputPath": "public/assets/og/content-collections-and-routing.webp",
+      "title": "Content collections and routing",
+      "hash": "18dd4f0061311db2cd05201ddcce41794e8c0ade08cef7e515a662e68942a3e5",
+      "updatedAt": "2026-02-03T01:33:39.077Z"
+    },
+    "custom-mdx-layouts": {
+      "sourcePath": "src/data/posts/custom-mdx-layouts.mdx",
+      "outputPath": "public/assets/og/custom-mdx-layouts.webp",
+      "title": "Custom MDX layouts",
+      "hash": "9372c33444db9fd5ad55d5802ccd833c8f92a8fb94626477dd2fe123a6f410d3",
+      "updatedAt": "2026-02-03T01:33:39.077Z"
+    },
+    "mdx-components-tour": {
+      "sourcePath": "src/data/posts/mdx-components-tour.mdx",
+      "outputPath": "public/assets/og/mdx-components-tour.webp",
+      "title": "MDX components tour",
+      "hash": "cb8c993fd6fbaa0a8a19b1e4e8e0be2f14f30e49a92d4075d7b835a6ca9cbc5b",
+      "updatedAt": "2026-02-03T01:33:39.077Z"
+    },
+    "typography-and-markdown": {
+      "sourcePath": "src/data/posts/typography-and-markdown.mdx",
+      "outputPath": "public/assets/og/typography-and-markdown.webp",
+      "title": "Typography and Markdown",
+      "hash": "f157283386c5226c8d2199fb261e3f6d8e208d32d9773d7e4560605b02a8026a",
+      "updatedAt": "2026-02-03T01:33:39.077Z"
+    },
+    "welcome-to-tanstack-start-blog": {
+      "sourcePath": "src/data/posts/welcome-to-tanstack-start-blog.mdx",
+      "outputPath": "public/assets/og/welcome-to-tanstack-start-blog.webp",
+      "title": "Welcome to TanStack Start Blog",
+      "hash": "bfafa32ec0b7e223672e6dabd671b771b6bf76fd44d50f534ee3e0601a326e3d",
+      "updatedAt": "2026-02-03T01:33:39.077Z"
+    }
+  }
+}

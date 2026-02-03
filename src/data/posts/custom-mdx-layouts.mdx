@@ -1,0 +1,51 @@
+---
+title: "Custom MDX layouts"
+description: "Use the Grid and GridCell components for editorial layouts inside posts."
+publishDate: "2026-01-30"
+tags:
+  - mdx
+  - layout
+  - custom-components
+---
+
+![Layout illustration](/assets/blog/casual-life-3d-workspace.webp)
+
+<Grid columns="contentSidebarLg" align="center">
+  <GridCell>
+
+## Two-column editorial layout
+
+Use `Grid` and `GridCell` to combine narrative text and supporting media. This template includes a
+custom grid component registered in `src/components/mdx.tsx` so you can drop it into any MDX file.
+
+<Callout variant="info" title="Layout tip">
+Keep your main text in the first column and use the second column for supporting visuals, stats, or
+checklists.
+</Callout>
+
+  </GridCell>
+  <GridCell>
+    <Frame align="center">
+      <Image
+        src="/assets/blog/casual-life-3d-girl-boy-poses.webp"
+        alt="Layout illustration"
+        width={320}
+      />
+      <Caption>Drop media here for emphasis.</Caption>
+    </Frame>
+  </GridCell>
+</Grid>
+
+## Registering custom components
+
+```tsx title="src/components/mdx.tsx" showLineNumbers
+import { createMdxComponents } from "@prose-ui/react";
+import { SafeMdxRenderer } from "safe-mdx";
+import { Grid, GridCell } from "@/components/grid";
+
+export const mdxComponents = {
+  ...createMdxComponents(),
+  Grid,
+  GridCell,
+};
+```

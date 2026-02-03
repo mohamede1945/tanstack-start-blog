@@ -1,0 +1,74 @@
+---
+title: "Welcome to TanStack Start Blog"
+description: "A quick tour of the template, what it ships with, and how to personalize it."
+publishDate: "2026-02-02"
+tags:
+  - template
+  - tanstack-start
+  - cloudflare
+  - mdx
+---
+
+![Workspace illustration](/assets/blog/casual-life-3d-workspace.webp)
+
+<Callout variant="info" title="Template starter">
+This repository is a starting point. Update the site constants, the about page, and these posts to
+make it yours.
+</Callout>
+
+## What ships in the box
+
+<Cards columns={2}>
+  <Card title="TanStack Start SSR" icon="rocket">
+    File-based routes, loaders, and SSR in one cohesive stack.
+  </Card>
+  <Card title="Cloudflare Workers" icon="cloud">
+    Deploy to the edge with a fast, minimal runtime.
+  </Card>
+  <Card title="MDX + Prose UI" icon="pen-tool">
+    Polished typography and components for Markdown and MDX.
+  </Card>
+  <Card title="RSS + sitemap" icon="rss">
+    Generated feeds and site maps for SEO and syndication.
+  </Card>
+  <Card title="Remotion OG images" icon="image">
+    Branded social previews you can regenerate per post.
+  </Card>
+  <Card title="Typed content collections" icon="layout-grid">
+    Frontmatter, content, and mdast all strongly typed.
+  </Card>
+</Cards>
+
+## Quick personalization checklist
+
+<Steps>
+  <Step title="Update site constants" icon="settings">
+    Edit `src/consts.ts` with your title, description, and canonical URL.
+  </Step>
+  <Step title="Refresh the about page" icon="user">
+    Replace `src/data/pages/about.mdx` with your bio, projects, and contact info.
+  </Step>
+  <Step title="Replace the demo posts" icon="book-open">
+    Swap out the MDX examples with your real content when you are ready.
+  </Step>
+</Steps>
+
+## Frontmatter example
+
+Every post lives in `src/data/posts` and starts with frontmatter:
+
+```mdx title="src/data/posts/my-first-post.mdx" showLineNumbers
+---
+title: "My first post"
+description: "What I learned building my first TanStack Start app."
+publishDate: "2026-02-01"
+tags:
+  - tanstack-start
+  - notes
+---
+```
+
+<Callout variant="tip" title="Next step">
+Run `npm run dev` and open the home page. You should see this post and the rest of the template
+content.
+</Callout>

@@ -1,0 +1,48 @@
+---
+title: "Content collections and routing"
+description: "How content collections power typed posts, paths, and metadata."
+publishDate: "2026-01-29"
+tags:
+  - content-collections
+  - routing
+  - mdx
+---
+
+![Documents illustration](/assets/blog/casual-life-3d-meditation-crystal.webp)
+
+Content Collections reads files in `src/data/posts` and turns them into typed data. The file path
+becomes the URL slug, so nested folders map directly to nested routes.
+
+## Example file structure
+
+```text
+src/data/posts/
+  welcome-to-tanstack-start-blog.mdx
+  guides/
+    rss-and-sitemaps.mdx
+    og-images.mdx
+```
+
+This structure maps to:
+
+- `/posts/welcome-to-tanstack-start-blog`
+- `/posts/guides/rss-and-sitemaps`
+- `/posts/guides/og-images`
+
+## Frontmatter requirements
+
+```mdx title="Required fields" showLineNumbers
+---
+title: "My post"
+description: "Short summary for cards and meta tags."
+publishDate: "2026-02-01"
+tags:
+  - template
+  - mdx
+---
+```
+
+<Callout variant="tip" title="Typed metadata">
+Content collections adds `readingTime`, `date`, and `mdast` fields so you can build features like
+reading-time badges or custom indexes without extra parsing.
+</Callout>

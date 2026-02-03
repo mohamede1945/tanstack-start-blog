@@ -1,0 +1,70 @@
+---
+title: "MDX components tour"
+description: "A practical walkthrough of Prose UI components available in this template."
+publishDate: "2026-02-01"
+tags:
+  - mdx
+  - prose-ui
+  - components
+---
+
+![Component collage](/assets/blog/casual-life-3d-girl-boy-poses.webp)
+
+## Callouts
+
+<Callout variant="note" title="Note">
+Use callouts to highlight context, tips, or warnings inside long posts.
+</Callout>
+
+<Callout variant="tip" title="Tip">
+Callouts accept `note`, `info`, `tip`, `warning`, or `danger` variants.
+</Callout>
+
+<Callout variant="warning" title="Warning">
+Keep important warnings close to the relevant instructions.
+</Callout>
+
+## Cards
+
+<Cards columns={3}>
+  <Card title="Design" icon="palette">
+    Ship content with a clean baseline.
+  </Card>
+  <Card title="Structure" icon="layers">
+    Typed MDX via content collections.
+  </Card>
+  <Card title="Delivery" icon="send">
+    Cloudflare Workers deployment.
+  </Card>
+</Cards>
+
+## Tabs
+
+<Tabs items={['Overview', 'MDX', 'Publishing']}>
+  <Tab value="Overview">
+    Use tabs to keep related content grouped without adding more scroll.
+  </Tab>
+  <Tab value="MDX">
+    Tabs can hold text, lists, or even code blocks.
+  </Tab>
+  <Tab value="Publishing">
+    Combine tabs with steps when you have multiple workflows to explain.
+  </Tab>
+</Tabs>
+
+## Frame + Image + Caption
+
+<Frame align="center">
+  <Image
+    src="/assets/blog/casual-life-3d-workspace.webp"
+    alt="Workspace illustration"
+    width={480}
+  />
+  <Caption>Images inside a frame keep captions aligned and readable.</Caption>
+</Frame>
+
+## Math
+
+Inline math works like this: <InlineMath>a^2 + b^2 = c^2</InlineMath>.
+
+<BlockMath>\\sum_{i=1}^{n} i = \\frac{n(n+1)}{2}</BlockMath>

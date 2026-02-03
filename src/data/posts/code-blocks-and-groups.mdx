@@ -1,0 +1,50 @@
+---
+title: "Code blocks and groups"
+description: "Showcase highlighted code blocks, titles, and grouped tabs for commands."
+publishDate: "2026-01-31"
+tags:
+  - mdx
+  - code
+  - prose-ui
+---
+
+![Code illustration](/assets/blog/casual-life-3d-likes.webp)
+
+## Single code block
+
+```ts title="src/routes/index.tsx" showLineNumbers
+export function HomePage() {
+  return (
+    <main>
+      <h1>Welcome to your blog</h1>
+    </main>
+  );
+}
+```
+
+## Code group
+
+<CodeGroup groupId="install">
+```bash title="npm"
+npm install
+```
+
+```bash title="pnpm"
+pnpm install
+```
+
+```bash title="yarn"
+yarn install
+```
+</CodeGroup>
+
+## Another fenced example
+
+```json title="frontmatter.json" showLineNumbers
+{
+  "title": "My post",
+  "description": "A short description",
+  "publishDate": "2026-02-01",
+  "tags": ["mdx", "template"]
+}
+```
